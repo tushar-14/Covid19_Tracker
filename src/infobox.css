@@ -1,0 +1,39 @@
+.box {
+  flex: 1;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid;
+}
+
+.box:not(:last-child) {
+  margin-right: 20px;
+}
+
+.box--selected {
+  border-top: 10px solid rgb(71, 177, 44);
+}
+
+.box--red {
+  border-top: 10px solid rgb(221, 27, 27) !important;
+}
+.box--grey {
+  border-top: 10px solid #575655 !important;
+}
+.green--cases {
+  color: rgb(71, 177, 44) !important;
+}
+
+.info_cases {
+  color: rgb(201, 37, 37);
+  font-weight: 620;
+  font-size: 1.5rem !important;
+  margin-bottom: 0.5rem;
+  object-fit: contain;
+}
+
+.info_total {
+  color: rgb(185, 185, 185);
+  font-weight: 700 !important;
+  font-size: 0.9rem !important;
+  margin-top: 15px !important;
+}
